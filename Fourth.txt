@@ -1,2 +1,0 @@
-This is feature fourth.
-Updation in feature fourth from upstream.
