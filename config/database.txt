@@ -1,0 +1,6 @@
+DATABASE_CONFIG:
+- Type: PostgreSQL
+- Host: localhost
+- Port: 5432
+- Name: bookstore_db
+- Status: Configuration pending
