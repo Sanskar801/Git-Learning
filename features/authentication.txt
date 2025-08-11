@@ -1,6 +1,14 @@
 AUTHENTICATION_FEATURE:
-- User registration: TODO
+- User registration: IN_PROGRESS
+  * Email validation: DONE
+  * Password hashing: DONE
+  * Database integration: IN_PROGRESS
 - User login: TODO
 - Password reset: TODO
 - Session management: TODO
-- Status: Not implemented
+- Status: In Development
+
+IMPLEMENTATION_NOTES:
+- Using bcrypt for password hashing
+- Email validation with regex
+- JWT tokens for session management
