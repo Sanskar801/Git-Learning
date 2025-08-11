@@ -1,0 +1,6 @@
+CHECKOUT_FEATURE:
+- Shopping cart: TODO
+- Payment processing: TODO
+- Order confirmation: TODO
+- Email notifications: TODO
+- Status: Not implemented

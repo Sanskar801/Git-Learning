@@ -1,0 +1,6 @@
+CATALOG_FEATURE:
+- Book search: TODO
+- Category filtering: TODO
+- Book details: TODO
+- Inventory tracking: TODO
+- Status: Not implemented

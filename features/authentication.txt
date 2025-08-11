@@ -1,0 +1,6 @@
+AUTHENTICATION_FEATURE:
+- User registration: TODO
+- User login: TODO
+- Password reset: TODO
+- Session management: TODO
+- Status: Not implemented
