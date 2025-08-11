@@ -1,2 +1,0 @@
-This is second feature.
-This is the second update in feature.
