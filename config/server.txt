@@ -2,4 +2,5 @@ SERVER_CONFIG:
 - Port: 3000
 - Environment: development
 - SSL: disabled
-- Logging: basic
+- Logging: enhanced
+- Debug mode: enabled
