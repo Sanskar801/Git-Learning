@@ -1,0 +1,59 @@
+# BookStore API Documentation
+
+## Authentication Endpoints
+
+POST /api/auth/register
+- Register new user account
+- Requires: email, password, firstName, lastName
+- Returns: user object, JWT token
+
+POST /api/auth/login
+- User login
+- Requires: email, password
+- Optional: 2FA token
+- Returns: JWT token, user profile
+
+POST /api/auth/logout
+- Logout current user
+- Requires: Authorization header
+- Returns: success confirmation
+
+## Catalog Endpoints
+
+GET /api/books
+- Search and filter books
+- Query params: q (search), genre, author, minPrice, maxPrice
+- Returns: paginated book results
+
+GET /api/books/:id
+- Get detailed book information
+- Returns: book details, reviews, recommendations
+
+## Checkout Endpoints
+
+POST /api/cart/add
+- Add item to shopping cart
+- Requires: bookId, quantity
+- Returns: updated cart
+
+POST /api/orders
+- Create new order
+- Requires: cart items, payment info, shipping address
+- Returns: order confirmation
+
+## Error Handling
+All endpoints return consistent error format:
+{
+  "error": "Error message",
+  "code": "ERROR_CODE",
+  "details": {}
+}
+
+## Rate Limiting
+- API calls: 1000 requests per hour per user
+- Search: 100 requests per minute
+- Payment: 10 requests per minute
+
+## Authentication
+Include JWT token in Authorization header:
+Authorization: Bearer <your-jwt-token>
