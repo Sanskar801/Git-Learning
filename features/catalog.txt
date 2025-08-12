@@ -2,7 +2,10 @@ CATALOG_FEATURE:
 - Book search: COMPLETED
   * Basic search functionality: DONE
   * Advanced search filters: DONE
-- Category filtering: IN_PROGRESS
-- Book details: TODO
+- Category filtering: COMPLETED
+  * Filter by genre: DONE
+  * Filter by author: DONE
+  * Filter by price range: DONE
+- Book details: IN_PROGRESS
 - Inventory tracking: TODO
-- Status: In Development
+- Status: 60% Complete
