@@ -1,6 +1,8 @@
 CATALOG_FEATURE:
-- Book search: TODO
-- Category filtering: TODO
+- Book search: COMPLETED
+  * Basic search functionality: DONE
+  * Advanced search filters: DONE
+- Category filtering: IN_PROGRESS
 - Book details: TODO
 - Inventory tracking: TODO
-- Status: Not implemented
+- Status: In Development
