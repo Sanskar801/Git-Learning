@@ -4,3 +4,6 @@ SERVER_CONFIG:
 - SSL: disabled
 - Logging: enhanced
 - Debug mode: enabled
+- Memory limit: 1GB
+- Timeout: 5s
+- Connection pool: 100
